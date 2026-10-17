@@ -123,7 +123,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Calculator.cpp" />
+    <ClCompile Include="Phone.cpp" />
+    <ClCompile Include="Smartphone.cpp" />
+    <ClCompile Include="TV.cpp" />
     <ClCompile Include="Warehouse.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Calculator.h" />
+    <ClInclude Include="Electronics.h" />
+    <ClInclude Include="Phone.h" />
+    <ClInclude Include="Smartphone.h" />
+    <ClInclude Include="TV.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
